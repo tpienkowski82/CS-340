@@ -1,1 +1,15 @@
-# CS-340
+# CS-340 Portfolio Repository
+
+## Module Eight Journal Reflection
+
+### How do you write programs that are maintainable, readable, and adaptable
+I write maintainable, readable, and adaptable programs by separating responsibilities into clear modules, using consistent naming, and minimizing repeated logic. In this course, the biggest example of this was the CRUD Python module from Project One. By keeping database connection code and database operations inside the CRUD module, my Project Two dashboard code stayed focused on the user interface and data presentation instead of repeating MongoDB logic in multiple places. This made the program easier to understand, easier to troubleshoot, and easier to update. The advantage of working this way is that if the database credentials, connection details, or query logic changes, I can update the CRUD module once and the dashboard continues to work. In the future, I could reuse this CRUD module pattern for other dashboards, reporting tools, or administrative applications that need reliable database access, and I could extend it with better validation, logging, and error handling without changing the UI layer.
+
+### How do you approach a problem as a computer scientist
+I approach problems as a computer scientist by breaking requirements into smaller tasks, confirming assumptions early, and testing each part before moving forward. For this project, I started by making sure the database connection and CRUD functions worked correctly, then connected those functions to the dashboard widgets, and finally refined filters, tables, and charts until they matched the requirements Grazioso Salvare requested. This approach was different from some earlier assignments because it felt more like a client driven software build where the final product needed to meet specific functional expectations and be usable for non technical users. In future projects, I will continue using strategies like turning requirements into a checklist, building a simple working version first, testing with known queries and expected outputs, and then iterating carefully while documenting changes so the final deliverable clearly matches what the client asked for.
+
+### What do computer scientists do, and why does it matter
+Computer scientists design and build systems that solve real problems by turning requirements into software that is reliable, efficient, and useful. This matters because organizations depend on accurate information, automation, and tools that support decision making and reduce manual work. A project like this helps a company like Grazioso Salvare because the dashboard makes it easier to view and filter animal shelter data quickly, which supports better operational decisions and saves time compared to searching raw records manually. By connecting a database to a clear interface, this work demonstrates how software can improve workflow efficiency, reduce errors, and make important information accessible to users who may not be comfortable writing database queries.
+
+## Project Two Artifacts
+This repository includes the Project Two portfolio artifacts for CS 340, including the final dashboard code and the Project Two README document (Word file) submitted for the course.
